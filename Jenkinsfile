@@ -9,8 +9,13 @@ node
     {
         build()
     }
-    stage('Testing')
+//     stage('Testing')
+//     {
+//         test.call()
+//     }
+    stage('File')
     {
-        test.call()
+
+        file.call()
     }
 }
