@@ -9,4 +9,8 @@ node
     {
         build()
     }
+    stage('Building')
+    {
+        image()
+    }
 }
