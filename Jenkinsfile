@@ -2,7 +2,7 @@
 node
 {
   
-    stage('Build 'JAR)
+    stage('Build JAR')
     {
       checkout.call()
     }
