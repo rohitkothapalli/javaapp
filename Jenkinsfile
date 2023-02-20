@@ -2,10 +2,8 @@
 node
 {
   
-    stage('Build')
+    stage('Build 'JAR)
     {
-      sh 'cd Users/krvnbangarraju/Desktop/Merchants'
-        build()
-         echo "========================================================================================================================="
+      checkout.call()
     }
 }
