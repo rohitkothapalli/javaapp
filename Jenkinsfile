@@ -16,6 +16,6 @@ node
     stage('File')
     {
 
-        file.call()
+        file.newMavenBuild()
     }
 }
