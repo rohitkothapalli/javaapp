@@ -11,6 +11,7 @@ node {
 
     // Build the JAR file using Maven
     stage('Build') {
+        sh 'cd /Users/krvnbangarraju/Desktop/Merchants'
         sh 'mvn clean package'
 //         archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
     }
