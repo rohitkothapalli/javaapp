@@ -9,13 +9,4 @@ node
     {
         build()
     }
-//     stage('Testing')
-//     {
-//         test.call()
-//     }
-    stage('File')
-    {
-
-        file.newMavenBuild()
-    }
 }
