@@ -11,6 +11,6 @@ node
     }
     stage('Testing')
     {
-        func()
+        test.call()
     }
 }
