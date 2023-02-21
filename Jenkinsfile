@@ -1,4 +1,4 @@
-@Library('task-demo')_
+@Library('sharedlib-demo')_
 
 node {
   
