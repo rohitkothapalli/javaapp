@@ -19,5 +19,8 @@ clone.call()
 
     test.call()
   }
+  stage('Artifact Building'){
+    dockerimage.call()
+  }
     
 }
