@@ -1,4 +1,4 @@
-@Library('pipeline-library-demo')_
+@Library('pipeline-library-demo@1.0.0')_
 
 node {
   
