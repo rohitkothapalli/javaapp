@@ -1,6 +1,6 @@
 @Library('pipeline-library-demo@1.0.0')_
 
-def dockerImageName= 'krvnb/$JOB_NAME:$BUILD_NUMBER'
+def dockerImageName= 'krvnb/taskapp_$JOB_NAME:$BUILD_NUMBER'
 
 node {
   
