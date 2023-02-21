@@ -1,4 +1,4 @@
-@Library('sharedlib-demo') _
+@Library('sharedlib') _
 
 node {
   
