@@ -8,7 +8,7 @@ node {
     }
   
   stage('Build'){
-    sh 'sudo apt-get install maven'
+    sh 'apt-get install maven'
     build()
   }
     
