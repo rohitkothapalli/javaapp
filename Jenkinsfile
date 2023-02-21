@@ -1,4 +1,4 @@
-@Library('shared')_
+@Library('task@1')_
 
 node {
   
