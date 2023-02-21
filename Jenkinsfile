@@ -1,4 +1,4 @@
-@Library('task')_
+@Library('task@1.0') _
 
 node {
   
