@@ -1,15 +1,14 @@
-@Library('task@1')_
+@Library('task')_
 
 node {
   
-//     stage('Checkout') {
-//         checkout scm
-//     }
-
-    // Build the JAR file using Maven
-    stage('Build') {
-        build()
-
+    stage('SCM Checkout') {
+        checkout()
     }
+ // Build the JAR file using Maven
+//     stage('Build') {
+//         build()
+
+//     }
     
 }
