@@ -24,9 +24,9 @@ clone.call()
   stage('Image Building'){
     dockerimage.call()
   }
-  stage('Into Artifactory'){
+//   stage('Into Artifactory'){
 
-    publishimage.call()
-  }
+//     publishimage.call()
+//   }
     
 }
