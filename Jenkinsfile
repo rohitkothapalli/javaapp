@@ -5,7 +5,7 @@ node {
   
   stage('Clone Repo'){
 //     sh 'cd /var/jenkins_home/workspace/task'
-clone()
+clone.call()
   }
 //     stage('SCM Checkout') {
 //         checkout()
