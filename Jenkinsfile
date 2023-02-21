@@ -20,9 +20,11 @@ node {
     dockerimage.call()
   }
 
-  stage('Publish'){
+//   stage('Publish'){
 
-    publishimage.call()
-  }
+//     publishimage.call()
+//   }
+  
+  
     
 }
