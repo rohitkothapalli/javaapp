@@ -12,7 +12,12 @@ clone.call()
 //     }
   
   stage('Build'){
-    build()
+    build.call()
+  }
+  
+  stage('Test'){
+
+    test.call()
   }
     
 }
