@@ -1,6 +1,6 @@
 @Library('pipeline-library-demo@1.0.0')_
 
-def dockerImageName= 'rajnikhattarrsinha/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
+def dockerImageName= 'krvnb/app_$JOB_NAME:$BUILD_NUMBER'
 
 
 node {
