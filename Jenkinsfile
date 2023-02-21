@@ -3,6 +3,9 @@
 
 node {
   
+  stage('Clone Repo'){
+clone()
+  }
     stage('SCM Checkout') {
         checkout()
     }
