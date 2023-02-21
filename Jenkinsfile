@@ -11,7 +11,7 @@ node {
 
     // Build the JAR file using Maven
     stage('Build') {
-        build.call()
+        build()
 //         archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
     }
 
