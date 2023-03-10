@@ -1,4 +1,4 @@
-@Library('cicdtask@1.0.0')_
+@Library('pipeline-library-demo@1.0.0')_
 
 
 node {
